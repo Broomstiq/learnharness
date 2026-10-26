@@ -113,9 +113,11 @@ mac:
     - target: dmg
       arch:
         - arm64
+        - x64
     - target: zip
       arch:
         - arm64
+        - x64
   # Locale trim (payload wave, 2026-09-24): English-only app — cuts
   # every non-en .lproj from the frameworks (the STT/mic entitlements
   # don't depend on locales). Revisit only if localization ever lands.
